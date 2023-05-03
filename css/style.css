@@ -1,0 +1,76 @@
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.note-form {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.note-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.note-form input[type="text"],
+.note-form textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.note-form button[type="submit"] {
+  display: block;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.note-form button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.note-list {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.note-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.note-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f8f8f8;
+}
+
+.note-list li h3 {
+  margin-top: 0;
+}
+
+.note-list li p {
+  margin-bottom: 0;
+}
